@@ -154,6 +154,78 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-我的安卓日记｜day1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/07/06/%E6%88%91%E7%9A%84%E5%AE%89%E5%8D%93%E6%97%A5%E8%AE%B0%EF%BD%9Cday1/">我的安卓日记｜day1</a>
+    </h1>
+  
+
+        
+        <a href="/2020/07/06/%E6%88%91%E7%9A%84%E5%AE%89%E5%8D%93%E6%97%A5%E8%AE%B0%EF%BD%9Cday1/" class="archive-article-date">
+  	<time datetime="2020-07-05T16:22:09.753Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-06</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="我的安卓日记｜day1"><a href="#我的安卓日记｜day1" class="headerlink" title="我的安卓日记｜day1"></a>我的安卓日记｜day1</h3><p><strong>数据库sqlite的学习</strong></p>
+<p>数据库中主要用到的思想概念：</p>
+<p><em>java中的面向对象编程思维</em></p>
+<p>SQLiteOpenHelper作为一个大的抽象继承类，主要需要Override的两个方法分别是<em>onCreate</em>和<em>onUpgrade</em>。</p>
+<hr>
+<p>其中为了创建’.db’为后缀名的数据库，需要新建一个MyDatabaseHelper类，它继承自SQLiteOpenHelper。</p>
+<p>贴出这个类的源代码：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MyDatabaseHelper</span> <span class="keyword">extends</span> <span class="title">SQLiteOpenHelper</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String CREATE_BOOK = <span class="string">"create table Book("</span></span><br><span class="line">        + <span class="string">"id integer primary key autoincrement, "</span></span><br><span class="line">        + <span class="string">"author text, "</span></span><br><span class="line">        + <span class="string">"price real, "</span></span><br><span class="line">        + <span class="string">"pages integer, "</span></span><br><span class="line">        + <span class="string">"name text)"</span>;</span><br><span class="line">  </span><br><span class="line">    <span class="keyword">private</span> Context mContext;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">MyDatabaseHelper</span><span class="params">(Context context, String name,SQLiteDatabase.CursorFactory factory, <span class="keyword">int</span> version)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(context, name, factory, version);</span><br><span class="line">        mContext = context;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onCreate</span><span class="params">(SQLiteDatabase db)</span> </span>&#123;</span><br><span class="line">        db.execSQL(CREATE_BOOK);</span><br><span class="line">        Toast.makeText(mContext, <span class="string">"Create succeeded"</span>,Toast.LENGTH_SHORT).show();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onUpgrade</span><span class="params">(SQLiteDatabase db, <span class="keyword">int</span> oldVersion, <span class="keyword">int</span> newVersion)</span> </span>&#123;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>其中在onCreate方法中实现了往数据库内添加CREATE_BOOK的记录，而CREATE_BOOK的写法是运用了SQL的相关知识（并没有很深刻了解）。我们只需要知道建表的方法是execSQL（）即可。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/07/06/%E6%88%91%E7%9A%84%E5%AE%89%E5%8D%93%E6%97%A5%E8%AE%B0%EF%BD%9Cday1/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-第一个hexo语法博客" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
