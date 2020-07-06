@@ -16,7 +16,7 @@
 <meta property="og:description" content="安卓运行时的权限设定权限机制的设定格式，在AndroidManifest.xml中添加权限声明，如： 1&lt;uses-permission android:name&#x3D;&quot;android.permission.xxx&quot;&#x2F;&gt;  在Android6.0以后的系统中加入了运行时权限功能。Android现在将所有的权限分为了两类，一类是普通权限，一类是危险权限。对于普通权限，系统会自动帮助用户完成授">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-07-06T01:54:21.451Z">
-<meta property="article:modified_time" content="2020-07-06T02:42:43.871Z">
+<meta property="article:modified_time" content="2020-07-06T02:50:01.480Z">
 <meta property="article:author" content="tyfann">
 <meta name="twitter:card" content="summary">
   
@@ -178,6 +178,8 @@
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;uses-permission android:name=<span class="string">"android.permission.xxx"</span>/&gt;</span><br></pre></td></tr></table></figure>
 
 <p>在Android6.0以后的系统中加入了运行时权限功能。Android现在将所有的权限分为了两类，一类是<strong>普通权限</strong>，一类是<strong>危险权限</strong>。对于普通权限，系统会自动帮助用户完成授权，而危险权限则必须由用户手动点击授权才可以，否则程序无法使用相应的功能。</p>
+<a id="more"></a>
+
 <hr>
 <p>Android所有的危险权限列表，一共9组24个权限</p>
 <table>
