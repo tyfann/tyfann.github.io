@@ -6,17 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>我的安卓日记｜day1 | Hexo</title>
+  <title>Endnote使用技巧 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="数据库sqlite的学习 数据库中主要用到的思想概念： java中的面向对象编程思维 SQLiteOpenHelper作为一个大的抽象继承类，主要需要Override的两个方法分别是onCreate和onUpgrade。">
+  <meta name="description" content="EndNote  论文阅读技巧  先总体预览EndNote library中的几十上百篇论文的标题，通过标题的阅读筛选出认为感兴趣的标一颗星；认为不感兴趣或者完全没有帮助的，不标星；认为可能有帮助但不确定的也标一颗星">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我的安卓日记｜day1">
-<meta property="og:url" content="http://yoursite.com/2020/07/05/%E6%88%91%E7%9A%84%E5%AE%89%E5%8D%93%E6%97%A5%E8%AE%B0%EF%BD%9Cday1/index.html">
+<meta property="og:title" content="Endnote使用技巧">
+<meta property="og:url" content="http://yoursite.com/2020/11/28/Endnote%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="数据库sqlite的学习 数据库中主要用到的思想概念： java中的面向对象编程思维 SQLiteOpenHelper作为一个大的抽象继承类，主要需要Override的两个方法分别是onCreate和onUpgrade。">
+<meta property="og:description" content="EndNote  论文阅读技巧  先总体预览EndNote library中的几十上百篇论文的标题，通过标题的阅读筛选出认为感兴趣的标一颗星；认为不感兴趣或者完全没有帮助的，不标星；认为可能有帮助但不确定的也标一颗星">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-07-05T16:22:09.753Z">
-<meta property="article:modified_time" content="2020-07-06T02:49:45.829Z">
+<meta property="article:published_time" content="2020-11-28T19:38:39.425Z">
+<meta property="article:modified_time" content="2020-11-28T19:41:30.589Z">
 <meta property="article:author" content="tyfann">
 <meta name="twitter:card" content="summary">
   
@@ -157,38 +157,29 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-我的安卓日记｜day1" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-Endnote使用技巧" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      我的安卓日记｜day1
+      Endnote使用技巧
     </h1>
   
 
         
-        <a href="/2020/07/05/%E6%88%91%E7%9A%84%E5%AE%89%E5%8D%93%E6%97%A5%E8%AE%B0%EF%BD%9Cday1/" class="archive-article-date">
-  	<time datetime="2020-07-05T16:22:09.753Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-05</time>
+        <a href="/2020/11/28/Endnote%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/" class="archive-article-date">
+  	<time datetime="2020-11-28T19:38:39.425Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-11-28</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><strong>数据库sqlite的学习</strong></p>
-<p>数据库中主要用到的思想概念：</p>
-<p><em>java中的面向对象编程思维</em></p>
-<p>SQLiteOpenHelper作为一个大的抽象继承类，主要需要Override的两个方法分别是<em>onCreate</em>和<em>onUpgrade</em>。</p>
-<a id="more"></a>
+        <center>EndNote  论文阅读技巧</center>
 
-<hr>
-<p>其中为了创建’.db’为后缀名的数据库，需要新建一个MyDatabaseHelper类，它继承自SQLiteOpenHelper。</p>
-<p>贴出这个类的源代码：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MyDatabaseHelper</span> <span class="keyword">extends</span> <span class="title">SQLiteOpenHelper</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String CREATE_BOOK = <span class="string">"create table Book("</span></span><br><span class="line">        + <span class="string">"id integer primary key autoincrement, "</span></span><br><span class="line">        + <span class="string">"author text, "</span></span><br><span class="line">        + <span class="string">"price real, "</span></span><br><span class="line">        + <span class="string">"pages integer, "</span></span><br><span class="line">        + <span class="string">"name text)"</span>;</span><br><span class="line">  </span><br><span class="line">    <span class="keyword">private</span> Context mContext;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">MyDatabaseHelper</span><span class="params">(Context context, String name,SQLiteDatabase.CursorFactory factory, <span class="keyword">int</span> version)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(context, name, factory, version);</span><br><span class="line">        mContext = context;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onCreate</span><span class="params">(SQLiteDatabase db)</span> </span>&#123;</span><br><span class="line">        db.execSQL(CREATE_BOOK);</span><br><span class="line">        Toast.makeText(mContext, <span class="string">"Create succeeded"</span>,Toast.LENGTH_SHORT).show();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onUpgrade</span><span class="params">(SQLiteDatabase db, <span class="keyword">int</span> oldVersion, <span class="keyword">int</span> newVersion)</span> </span>&#123;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>其中在onCreate方法中实现了往数据库内添加CREATE_BOOK的记录，而CREATE_BOOK的写法是运用了SQL的相关知识（并没有很深刻了解）。我们只需要知道建表的方法是execSQL（）即可。</p>
+<p>先总体预览EndNote library中的几十上百篇论文的标题，通过标题的阅读筛选出认为感兴趣的标一颗星；认为不感兴趣或者完全没有帮助的，不标星；认为可能有帮助但不确定的也标一颗星</p>
 
       
 
@@ -278,7 +269,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/07/05/%E6%88%91%E7%9A%84%E5%AE%89%E5%8D%93%E6%97%A5%E8%AE%B0%EF%BD%9Cday1/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2020/11/28/Endnote%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -292,15 +283,11 @@
   
 <nav id="article-nav">
   
-    <a href="/2020/07/06/%E6%88%91%E7%9A%84%E5%AE%89%E5%8D%93%E6%97%A5%E8%AE%B0%EF%BD%9Cday2/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          我的安卓日记｜day2
-        
-      </div>
-    </a>
   
+    <a href="/2020/11/28/github%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97%EF%BC%88%E4%BA%8C%EF%BC%89/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">github使用心得（二）</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
