@@ -59,6 +59,20 @@
   </url>
 
   
+  <url>
+    <loc>https://github.com/tyfann/tags/github/</loc>
+    <lastmod>2020-11-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/tyfann/tags/git/</loc>
+    <lastmod>2020-11-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
 </urlset>
