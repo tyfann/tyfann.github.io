@@ -6,7 +6,7 @@
   <link href="https://github.com/tyfann/atom.xml" rel="self"/>
   
   <link href="https://github.com/tyfann/"/>
-  <updated>2020-12-03T13:57:37.843Z</updated>
+  <updated>2020-12-03T20:09:49.582Z</updated>
   <id>https://github.com/tyfann/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://github.com/tyfann/2020/12/03/Latex%E5%B8%B8%E7%94%A8%E7%AC%A6%E5%8F%B7/"/>
+    <id>https://github.com/tyfann/2020/12/03/Latex%E5%B8%B8%E7%94%A8%E7%AC%A6%E5%8F%B7/</id>
+    <published>2020-12-03T20:09:49.582Z</published>
+    <updated>2020-12-03T20:09:49.582Z</updated>
+    
+    <content type="html"><![CDATA[<table><thead><tr><th>表达式</th><th>样例</th></tr></thead><tbody><tr><td>\times</td><td>$\times$</td></tr><tr><td>\subseteq</td><td>$\subseteq$</td></tr><tr><td>\subset</td><td>$\subset$</td></tr><tr><td>\mathbb{R}</td><td>$\mathbb{R}$</td></tr><tr><td>\supset</td><td>$\supset$</td></tr><tr><td>\supseteq</td><td>$\supseteq$</td></tr><tr><td>\div</td><td>$\div$</td></tr><tr><td>\mu</td><td>$\mu$</td></tr><tr><td>\in</td><td>$\in$</td></tr><tr><td>\notin</td><td>$\notin$</td></tr></tbody></table><p>数据库常用关系代数符号：</p><table><thead><tr><th>表达式</th><th>样例</th></tr></thead><tbody><tr><td>\pi</td><td>$\pi$</td></tr><tr><td>\sigma</td><td>$\sigma$</td></tr><tr><td>\rho</td><td>$\rho$</td></tr><tr><td>\cup</td><td>$\cup$</td></tr><tr><td>\cap</td><td>$\cap$</td></tr><tr><td>\bowtie</td><td>$\bowtie$</td></tr><tr><td>\rightarrow</td><td>$\rightarrow$</td></tr><tr><td>\leftarrow</td><td>$\leftarrow$</td></tr><tr><td>\forall</td><td>$\forall$</td></tr><tr><td>\exist</td><td>$\exist$</td></tr><tr><td>\land</td><td>$\land$</td></tr><tr><td>\neg</td><td>$\neg$</td></tr><tr><td>\ne</td><td>$\ne$</td></tr><tr><td>\gt</td><td>$\gt$</td></tr><tr><td>\lt</td><td>$\lt$</td></tr><tr><td>\ge</td><td>$\ge$</td></tr><tr><td>\le</td><td>$\le$</td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;表达式&lt;/th&gt;
+&lt;th&gt;样例&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;\times&lt;/td&gt;
+&lt;td&gt;$\times$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;\subseteq&lt;/td&gt;
+&lt;td</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>The standards and beliefs of our generation</title>
