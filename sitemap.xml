@@ -94,6 +94,13 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://github.com/tyfann/tags/machine-learning/</loc>
+    <lastmod>2020-12-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
 </urlset>
