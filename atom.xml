@@ -6,7 +6,7 @@
   <link href="https://github.com/tyfann/atom.xml" rel="self"/>
   
   <link href="https://github.com/tyfann/"/>
-  <updated>2020-12-03T20:09:49.582Z</updated>
+  <updated>2020-12-15T10:06:19.418Z</updated>
   <id>https://github.com/tyfann/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>decision tree</title>
+    <link href="https://github.com/tyfann/2020/12/15/decision%20tree/"/>
+    <id>https://github.com/tyfann/2020/12/15/decision%20tree/</id>
+    <published>2020-12-15T10:06:19.418Z</published>
+    <updated>2020-12-15T10:06:19.418Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="Decision-tree"><a href="#Decision-tree" class="headerlink" title="Decision tree"></a>Decision tree</h4><p><strong>Information entropy calculation:</strong></p><p>Entropy equation: $E = -\sum\limits_i^Cp_i\log_2p_i$</p><p>Example: in one split we have 1 red, 2 blues, 3 greens points<br>$E = -(\frac{1}{6}\log(\frac{1}{6})+\frac{2}{6}\log(\frac{2}{6})+\frac{3}{6}\log(\frac{3}{6}))=1.47$</p><p>if we get 3 blues in one split(only blue)<br>$E = -(1\log(1))=0$</p><p><strong>Information gain:</strong></p><img src="/Users/tyfann/Downloads/nodecision_boundary.png" alt="nodecision_boundary" style="zoom:28%;" /><p>consider the before split:<br>$E = -(\frac{5}{10}\log(\frac{5}{10})+\frac{5}{10}\log(\frac{5}{10}))=1$</p><img src="/Users/tyfann/Downloads/decision_boundary.png" alt="decision_boundary" style="zoom:28%;" /><p>and consider the latter split:<br>the left split: $E = 0$, the right split: $E = -(\frac{1}{6}\log(\frac{1}{6})+\frac{5}{6}\log(\frac{5}{6}))=0.65$<br>in final calculation, we need to add weigh to these two splits:<br>$E_{split} = \frac{4}{10}<em>0+\frac{6}{10}</em>0.65 = 0.39$</p><p>So the $Gain = 1-0.39 = 0.61$ (equal to how much entropy we removed).</p><p>Same expression: higher information gain = more entropy removed</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;Decision-tree&quot;&gt;&lt;a href=&quot;#Decision-tree&quot; class=&quot;headerlink&quot; title=&quot;Decision tree&quot;&gt;&lt;/a&gt;Decision tree&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Information entrop</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Latex常用符号</title>
