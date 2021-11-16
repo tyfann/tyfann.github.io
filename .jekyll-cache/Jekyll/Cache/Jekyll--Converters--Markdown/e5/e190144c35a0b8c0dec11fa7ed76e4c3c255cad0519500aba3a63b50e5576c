@@ -1,4 +1,4 @@
-I"<div class="projects">
+I"\<div class="projects">
   
   <!-- Display categorized projects -->
     
@@ -11,14 +11,14 @@
           
             <div class="grid-item">
   
-  <a href="/al-folio/projects/1_project/">
+  <a href="/projects/1_project/">
   
     <div class="card hoverable">
       
         
 
 
-<img src="/al-folio/assets/resized/12-1400x933.jpg" srcset="    /al-folio/assets/resized/12-480x320.jpg 480w,    /al-folio/assets/resized/12-800x533.jpg 800w,    /al-folio/assets/resized/12-1400x933.jpg 1400w,/assets/img/12.jpg 2000w" alt="project thumbnail" />
+<img src="/assets/resized/12-1400x933.jpg" srcset="    /assets/resized/12-480x320.jpg 480w,    /assets/resized/12-800x533.jpg 800w,    /assets/resized/12-1400x933.jpg 1400w,/assets/img/12.jpg 2000w" alt="project thumbnail" />
 
       
       <div class="card-body">
@@ -35,14 +35,14 @@
           
             <div class="grid-item">
   
-  <a href="/al-folio/projects/2_project/">
+  <a href="/projects/2_project/">
   
     <div class="card hoverable">
       
         
 
 
-<img src="/al-folio/assets/resized/3-1400x933.jpg" srcset="    /al-folio/assets/resized/3-480x320.jpg 480w,    /al-folio/assets/resized/3-800x533.jpg 800w,    /al-folio/assets/resized/3-1400x933.jpg 1400w,/assets/img/3.jpg 2000w" alt="project thumbnail" />
+<img src="/assets/resized/3-1400x933.jpg" srcset="    /assets/resized/3-480x320.jpg 480w,    /assets/resized/3-800x533.jpg 800w,    /assets/resized/3-1400x933.jpg 1400w,/assets/img/3.jpg 2000w" alt="project thumbnail" />
 
       
       <div class="card-body">
@@ -66,7 +66,7 @@
         
 
 
-<img src="/al-folio/assets/resized/7-1400x933.jpg" srcset="    /al-folio/assets/resized/7-480x320.jpg 480w,    /al-folio/assets/resized/7-800x533.jpg 800w,    /al-folio/assets/resized/7-1400x933.jpg 1400w,/assets/img/7.jpg 3000w" alt="project thumbnail" />
+<img src="/assets/resized/7-1400x933.jpg" srcset="    /assets/resized/7-480x320.jpg 480w,    /assets/resized/7-800x533.jpg 800w,    /assets/resized/7-1400x933.jpg 1400w,/assets/img/7.jpg 3000w" alt="project thumbnail" />
 
       
       <div class="card-body">
@@ -93,7 +93,7 @@
           
             <div class="grid-item">
   
-  <a href="/al-folio/projects/4_project/">
+  <a href="/projects/4_project/">
   
     <div class="card hoverable">
       
@@ -111,14 +111,14 @@
           
             <div class="grid-item">
   
-  <a href="/al-folio/projects/5_project/">
+  <a href="/projects/5_project/">
   
     <div class="card hoverable">
       
         
 
 
-<img src="/al-folio/assets/resized/1-800x534.jpg" srcset="    /al-folio/assets/resized/1-480x320.jpg 480w,    /al-folio/assets/resized/1-800x534.jpg 800w,/assets/img/1.jpg 1000w" alt="project thumbnail" />
+<img src="/assets/resized/1-800x534.jpg" srcset="    /assets/resized/1-480x320.jpg 480w,    /assets/resized/1-800x534.jpg 800w,/assets/img/1.jpg 1000w" alt="project thumbnail" />
 
       
       <div class="card-body">
@@ -135,7 +135,7 @@
           
             <div class="grid-item">
   
-  <a href="/al-folio/projects/6_project/">
+  <a href="/projects/6_project/">
   
     <div class="card hoverable">
       
